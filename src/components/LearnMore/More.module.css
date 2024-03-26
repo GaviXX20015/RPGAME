@@ -1,0 +1,304 @@
+.more {
+  position: relative;
+  z-index: 1001;
+}
+
+/* .wave {
+  position: absolute;
+} */
+/* 
+#front {
+  top: -420px;
+} */
+
+#back {
+  position: absolute;
+  z-index: -1;
+  top: -25px;
+}
+
+.img {
+  width: 100%;
+  height: 100vh;
+}
+
+.card-container {
+  height: 100%;
+  padding: 0 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  font-family: "Lilita One", sans-serif;
+  width: 60%;
+  position: relative;
+}
+
+.card-header {
+  background-color: #150050;
+  color: #e4c2ff;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 5px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-body {
+  width: 97%;
+  margin: auto;
+  padding: 80px;
+  --s: 60px;
+  --c1: #9a1fff;
+  --c2: #9027e7;
+  --_g: radial-gradient(
+    25% 25% at 25% 25%,
+    var(--c1) 99%,
+    rgba(0, 0, 0, 0) 101%
+  );
+  background: var(--_g) var(--s) var(--s) / calc(2 * var(--s))
+      calc(2 * var(--s)),
+    var(--_g) 0 0 / calc(2 * var(--s)) calc(2 * var(--s)),
+    radial-gradient(50% 50%, var(--c2) 98%, rgba(0, 0, 0, 0)) 0 0 / var(--s)
+      var(--s),
+    repeating-conic-gradient(var(--c2) 0 50%, var(--c1) 0 100%)
+      calc(0.5 * var(--s)) 0 / calc(2 * var(--s)) var(--s);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.card-body h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.card-body p {
+  color: #e0d9e6;
+  font-size: 1.75rem;
+  margin: 40px 0;
+}
+
+.card-body button {
+  border: 0;
+  cursor: pointer;
+  font-family: "Lilita One", sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  background-color: #ffdb38;
+  color: #150050;
+  width: fit-content;
+  padding: 10px 0px;
+}
+
+.card-body button:hover {
+  background-color: #150050;
+  color: #ffdb38;
+  transition: 0.25s;
+}
+
+.card-body button a {
+  text-decoration: none;
+  color: #150050;
+  padding: 10px 50px;
+}
+
+.card-body button a:hover {
+  color: #ffdb38;
+}
+
+.logo {
+  position: absolute;
+  width: 300px;
+  bottom: -100px;
+  right: -100px;
+}
+
+@media only screen and (max-width: 1440px) {
+  /* #front {
+    top: -300px;
+  } */
+
+  #back {
+    top: -30px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .card-header {
+    font-size: 1.85rem;
+  }
+
+  .card-body {
+    padding: 40px;
+  }
+
+  .card-body h2 {
+    font-size: 2.75rem;
+  }
+
+  .card-body p {
+    font-size: 1.5rem;
+  }
+
+  .card-body button {
+    font-size: 1.8rem;
+    padding: 7.5px 0px;
+  }
+
+  .card-body button a {
+    padding: 7.5px 40px;
+  }
+
+  .logo {
+    width: 240px;
+    bottom: -90px;
+    right: -90px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  /* #front {
+    top: -225px;
+  } */
+}
+
+@media only screen and (max-width: 1025px) {
+  /* #front {
+    top: -220px;
+  } */
+
+  #back {
+    top: -20px;
+  }
+
+  .card-body {
+    padding: 60px;
+  }
+
+  .card-body h2 {
+    font-size: 3rem;
+  }
+
+  .card-body p {
+    font-size: 2rem;
+  }
+
+  .card-body button {
+    font-size: 2rem;
+    padding: 7.5px 0px;
+  }
+
+  .card-body button a {
+    padding: 7.5px 40px;
+  }
+
+  .logo {
+    width: 260px;
+    bottom: -90px;
+    right: -90px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* #front {
+    top: -190px;
+  } */
+}
+
+@media only screen and (max-width: 840px) {
+  /* #front {
+    top: -160px;
+  } */
+}
+
+@media only screen and (max-width: 712px) {
+  /* #front {
+    top: -140px;
+  } */
+}
+
+@media only screen and (max-width: 460px) {
+  .card-container {
+    padding: 0 15px;
+  }
+
+  /* #front {
+    top: -90px;
+  } */
+
+  .card-body {
+    padding: 40px;
+  }
+
+  .card-body h2 {
+    font-size: 2.5rem;
+  }
+
+  .card-body p {
+    font-size: 1.5rem;
+  }
+
+  .card-body button {
+    font-size: 1.5rem;
+    padding: 7.5px 0px;
+  }
+
+  .card-body button a {
+    font-size: 1.5rem;
+    padding: 7.5px 40px;
+  }
+
+  .logo {
+    width: 140px;
+    bottom: -50px;
+    right: -15px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .card-container {
+    padding: 0 15px;
+  }
+
+  /* #front {
+    top: -70px;
+  } */
+}
+
+@media only screen and (max-width: 320px) {
+  .card-body h2 {
+    font-size: 2.25rem;
+  }
+
+  .card-body p {
+    font-size: 1.25rem;
+  }
+
+  .card-body button {
+    font-size: 1.25rem;
+    padding: 7.5px 0px;
+  }
+
+  .card-body button a {
+    padding: 7.5px 40px;
+  }
+
+  .logo {
+    width: 120px;
+    bottom: -50px;
+    right: -15px;
+  }
+}

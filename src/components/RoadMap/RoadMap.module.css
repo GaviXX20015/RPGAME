@@ -1,0 +1,185 @@
+.roadMap {
+  background-color: white;
+  position: relative;
+  z-index: 1000;
+  padding-bottom: 300px;
+}
+
+.wave {
+  position: absolute;
+}
+
+#front {
+  top: -170px;
+}
+
+#back {
+  top: -195px;
+}
+
+.content {
+  position: relative;
+  z-index: 99;
+  padding: 80px 140px;
+  font-family: "Lilita One", sans-serif;
+  text-align: center;
+}
+
+.content h4 {
+  font-size: 1.85rem;
+  text-transform: uppercase;
+  color: #361493;
+}
+
+.content h2 {
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #150050;
+}
+
+.heros {
+  margin-top: 90px;
+  text-align: start;
+}
+
+.small-title {
+  font-size: 1.75rem;
+  color: #361493;
+}
+
+.big-title {
+  font-size: 2.75rem;
+  color: #fb2576;
+  text-transform: uppercase;
+}
+
+.about {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 1.65rem;
+  color: #150050;
+  width: 84%;
+  margin: 80px auto;
+}
+
+.about span {
+  color: #361493;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.enhancement {
+  text-align: end;
+}
+
+.hr {
+  width: 40%;
+  margin: 160px auto;
+  border: 0;
+  border-top: solid 15px #fb2576;
+  opacity: 1;
+  transform: skew(-150deg);
+}
+
+.bosses {
+  margin: 160px 0;
+}
+
+.description {
+  margin: 80px 0;
+}
+
+@media only screen and (max-width: 1440px) {
+  .roadMap {
+    padding-bottom: 120px;
+  }
+
+  .content {
+    padding: 80px 50px;
+  }
+
+  .about {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .content {
+    padding: 80px 30px;
+  }
+  .about {
+    width: 95%;
+  }
+
+  #front {
+    top: -150px;
+  }
+
+  #back {
+    top: -175px;
+  }
+}
+
+@media only screen and (max-width: 712px) {
+  #front {
+    top: -90px;
+  }
+
+  #back {
+    top: -110px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .content {
+    padding: 80px 15px;
+  }
+
+  #front {
+    top: -80px;
+  }
+
+  #back {
+    top: -100px;
+  }
+
+  .small-title {
+    font-size: 1.5rem;
+  }
+
+  .big-title {
+    font-size: 2.5rem;
+  }
+
+  .about {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .content {
+    padding: 80px 10px;
+  }
+
+  #front {
+    top: -60px;
+  }
+
+  #back {
+    top: -80px;
+  }
+
+  .small-title {
+    font-size: 1.5rem;
+  }
+
+  .big-title {
+    font-size: 2.5rem;
+  }
+
+  .about {
+    font-size: 1.25rem;
+    width: 100%;
+  }
+}

@@ -1,0 +1,148 @@
+.About {
+  padding: 20px 140px 300px;
+  color: white;
+  width: 100%;
+  background-color: #150050;
+  z-index: 999;
+  position: relative;
+}
+
+.Text,
+.img {
+  width: 70%;
+}
+
+.Text > * {
+  font-family: "Lilita One", sans-serif;
+  text-transform: uppercase;
+}
+
+.Text h2 {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.Text h3 {
+  font-size: 2rem;
+  color: #ffdb38;
+}
+
+.Text p {
+  font-size: 1.5rem;
+  color: rgb(189, 178, 194);
+  margin: 60px 0;
+}
+
+.img {
+  height: 100%;
+}
+
+.left {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.img div {
+  border: solid 5px #9a1fff;
+  transform: rotate(-5deg);
+}
+
+.right {
+  padding-left: 20px;
+}
+
+.right div {
+  transform: rotate(5deg);
+}
+
+@media only screen and (max-width: 1440px) {
+  .About {
+    padding: 20px 0px 300px;
+  }
+
+  .Text h2 {
+    font-size: 2.75rem;
+  }
+
+  .Text h3 {
+    font-size: 1.75rem;
+  }
+
+  .Text p {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .About {
+    padding: 20px 0px 300px;
+  }
+
+  .Text h2 {
+    font-size: 2.75rem;
+  }
+
+  .Text h3 {
+    font-size: 1.75rem;
+  }
+
+  .Text p {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .About {
+    width: 100%;
+  }
+
+  .img div {
+    transform: rotate(0);
+  }
+
+  .left,
+  .right {
+    margin: auto;
+    padding-right: 0px;
+  }
+
+  .img {
+    height: 500px;
+    margin-bottom: 50px;
+  }
+
+  .Text > * {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .About {
+    padding: 20px 0px 200px;
+  }
+
+  .left,
+  .right {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .Text h2 {
+    font-size: 2rem;
+  }
+
+  .Text h3 {
+    font-size: 1.75rem;
+  }
+
+  .Text p {
+    font-size: 1.25rem;
+  }
+
+  .img {
+    height: 400px;
+    margin-bottom: 50px;
+  }
+}

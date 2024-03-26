@@ -1,0 +1,55 @@
+.footer {
+  padding: 20px 5%;
+  background-color: #000;
+  color: white;
+  font-family: "Heebo", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer ul li {
+  margin-right: 20px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+ul li.icon {
+  font-size: 25px;
+  margin-right: 0;
+}
+
+.footer ul li a:hover {
+  color: #9a1fff;
+}
+
+@media only screen and (max-width: 460px) {
+  .footer {
+    padding: 20px 0;
+    font-size: 15px;
+  }
+
+  .footer div {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.container,
+.links {
+  padding-right: 0;
+}

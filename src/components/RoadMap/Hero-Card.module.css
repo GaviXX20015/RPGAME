@@ -1,0 +1,39 @@
+#hero {
+  padding: 0 5px;
+  margin-top: 60px;
+  box-shadow: rgba(251, 37, 118, 0.2) 0px 0px 0px 1px inset,
+    rgba(251, 37, 118, 0.9) 0px 0px 0px 1px;
+}
+
+/*rgb(251,37,118)*/
+
+.background {
+  background-color: #150050;
+  color: white;
+  padding: 20px;
+  transform: rotate(5deg);
+  display: flex;
+}
+
+.background:hover {
+  cursor: pointer;
+  transform: rotate(0deg);
+  transition: 0.25s;
+}
+
+.img {
+  width: 320px;
+  height: 130px;
+  margin-right: 20px;
+}
+
+.text h3 {
+  color: #ffdb38;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.text p {
+  font-size: 1.05rem;
+}

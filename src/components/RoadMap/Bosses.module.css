@@ -1,0 +1,162 @@
+.container {
+  position: relative;
+  margin-top: 80px;
+}
+
+.background,
+.background2,
+.background3 {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.background {
+  width: 450px;
+  height: 450px;
+  background-color: #150050;
+  opacity: 1;
+  background-image: linear-gradient(
+      30deg,
+      #3f0071 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #3f0071 87.5%,
+      #3f0071
+    ),
+    linear-gradient(
+      150deg,
+      #3f0071 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #3f0071 87.5%,
+      #3f0071
+    ),
+    linear-gradient(
+      30deg,
+      #3f0071 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #3f0071 87.5%,
+      #3f0071
+    ),
+    linear-gradient(
+      150deg,
+      #3f0071 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #3f0071 87.5%,
+      #3f0071
+    ),
+    linear-gradient(
+      60deg,
+      #3f007177 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #3f007177 75%,
+      #3f007177
+    ),
+    linear-gradient(
+      60deg,
+      #3f007177 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #3f007177 75%,
+      #3f007177
+    );
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  margin: auto;
+}
+
+.background3,
+.background2 {
+  z-index: -1;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+}
+
+.background2 {
+  left: 20%;
+  background-color: #3f0071;
+  opacity: 1;
+  background: linear-gradient(135deg, #fb257655 25%, transparent 25%) -40px 0/
+      80px 80px,
+    linear-gradient(225deg, #fb2576 25%, transparent 25%) -40px 0/ 80px 80px,
+    linear-gradient(315deg, #fb257655 25%, transparent 25%) 0px 0/ 80px 80px,
+    linear-gradient(45deg, #fb2576 25%, #3f0071 25%) 0px 0/ 80px 80px;
+}
+
+.background3 {
+  right: 20%;
+  background-color: #fd8f0e;
+  opacity: 1;
+  background-size: 40px 40px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ffdb38 0,
+    #ffdb38 4px,
+    #fd8f0e 0,
+    #fd8f0e 50%
+  );
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1440px) {
+  .background2 {
+    left: 12%;
+  }
+
+  .background3 {
+    right: 12%;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .background2 {
+    left: 10%;
+  }
+
+  .background3 {
+    right: 10%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .background {
+    width: 400px;
+    height: 400px;
+  }
+
+  .background3,
+  .background2 {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .background {
+    width: 225px;
+    height: 225px;
+  }
+
+  .background3,
+  .background2 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .background2 {
+    left: 5%;
+  }
+
+  .background3 {
+    right: 5%;
+  }
+}

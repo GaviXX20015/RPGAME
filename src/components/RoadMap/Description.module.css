@@ -1,0 +1,166 @@
+.discription {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 140px auto;
+  background-color: #9a1fff;
+  opacity: 1;
+  background-image: linear-gradient(
+      30deg,
+      #9027e7 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #9027e7 87.5%,
+      #9027e7
+    ),
+    linear-gradient(
+      150deg,
+      #9027e7 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #9027e7 87.5%,
+      #9027e7
+    ),
+    linear-gradient(
+      30deg,
+      #9027e7 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #9027e7 87.5%,
+      #9027e7
+    ),
+    linear-gradient(
+      150deg,
+      #9027e7 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #9027e7 87.5%,
+      #9027e7
+    ),
+    linear-gradient(
+      60deg,
+      #9027e777 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #9027e777 75%,
+      #9027e777
+    ),
+    linear-gradient(
+      60deg,
+      #9027e777 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #9027e777 75%,
+      #9027e777
+    );
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+}
+
+.text {
+  width: 60%;
+  text-align: start;
+  margin-left: 40px;
+}
+
+.text h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: #ffdb38;
+}
+
+.text p {
+  font-size: 1.5rem;
+  color: #e0d9e6;
+}
+
+@media only screen and (max-width: 1025px) {
+  .discription {
+    width: 98%;
+    padding-right: 10px;
+  }
+
+  .text {
+    margin-left: 10px;
+  }
+
+  .text h3 {
+    font-size: 2.85rem;
+  }
+
+  .text p {
+    font-size: 1.45rem;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .discription {
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  .text {
+    margin-left: 5px;
+  }
+
+  .text h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .text p {
+    font-size: 1.25rem;
+  }
+
+  .img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .discription {
+    width: 100%;
+    display: block;
+    padding-right: 0px;
+  }
+
+  .text {
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .text h3 {
+    font-size: 2.45rem;
+  }
+
+  .text p {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .discription {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .discription {
+    width: 100%;
+  }
+}
