@@ -39,12 +39,12 @@ const Header = (props) => {
             </ul>
             <ul className={classes.icons}>
               <li>
-                <a target="_blank" href="https://twitter.com/RPGonBlast">
+                <a target="_blank" href="https://twitter.com/RPGonSolana">
                   <i class="bi bi-twitter-x"></i>
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://t.me/rpgportal">
+                <a target="_blank" href="https://telegram.me/RPGonSolanaBot">
                   <i class="bi bi-telegram"></i>
                 </a>
               </li>
@@ -62,7 +62,7 @@ const Header = (props) => {
             id={classes["btn-1"]}
             className={classes.button}
             target="_blank"
-            href="https://t.me/RPGonSolanaBot"
+            href="https://telegram.me/RPGonSolanaBot"
           >
             START RAIDING
           </a>

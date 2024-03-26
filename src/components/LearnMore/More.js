@@ -35,7 +35,7 @@ const More = () => {
                     bosses.
                   </p>
                   <button>
-                    <a target="_blank" href="https://t.me/rpgportal">
+                    <a target="_blank" href="https://telegram.me/RPGonSolanaBot">
                       GO!
                     </a>
                   </button>

@@ -32,7 +32,7 @@ const Footer = () => {
           }
         >
           <li className={classes.icon}>
-            <a target="_blank" href=" https://t.me/rpgportal">
+            <a target="_blank" href=" https://telegram.me/RPGonSolanaBot">
               <i class="bi bi-telegram"></i>
             </a>
           </li>
